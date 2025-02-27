@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio </title>
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <img src="logo.png">
+        </div>
+        <ul class="nav-links">
+            <li class="link"><a href="index.html">Home</a></li>
+            <li id="link1" class="link"><a href="skills.html">Skills</a></li>
+            <li id="link3" class="link"><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+<style>
+img{
+    width: 70%;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #18181B;
+}
+
+nav{
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav-logo{
+    max-width: 100px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.link a{
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: #fff;
+}
+
+header .btn {
+    margin-bottom: 13rem;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #1d4ed8;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #1e40af;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.blur{
+    position: absolute;
+    box-shadow: 0 0 1000px 50px #1d4ed8;
+    z-index: -100;
+}
+.sub-header{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    color: #ccc;
+}
+
+footer .column {
+    position: relative;
+}
+
+footer .column .logo {
+    max-width: 100px;
+    margin-top: 2rem;
+}
+
+footer .column:last-child .logo {
+    margin-top: auto;
+}
+
+footer .socials {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem; /* Menambah jarak ke bawah */
+    font-size: 1.5rem;
+}
+
+footer .socials a {
+    color: #fff;
+    font-size: 100rem; /* Memperbesar ukuran logo */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+footer .socials a:hover {
+    color: #1d4ed8;
+    transform: scale(1.2); /* Efek zoom saat hover */
+}
+
+footer .description h4 {
+    font-size: 2.5rem; /* Memperbesar judul "Tentang Saya" */
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+footer .description p {
+    font-size: 1.5rem; /* Memperbesar teks deskripsi */
+    line-height: 1.8;
+    color: #e5e7eb;
+}
+
+.copyright{
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    color: #fff;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+</style>
+<footer class="container">
+    <span class="blur"></span>
+    <span class="blur"></span>
+    <div class="column description">
+        <h4>Tentang Saya</h4>
+        <p>Halo! Saya Noval, seorang newbie programmer yang suka memancing, bermain game, dan berolahraga. 
+        Selamat datang di portfolio pribadi saya!</p>
+        
+    </div>    
+    <div class="column">
+        <div class="socials">
+            <a href="https://www.youtube.com/feed/you"><i class="ri-youtube-line"></i></a>
+            <a href="https://www.instagram.com/hrnwn21/"><i class="ri-instagram-line"></i></a>
+            <a href="https://x.com/hrnwn21"><i class="ri-twitter-line"></i></a>
+            <a href="https://github.com/NovalHrnwn"><i class="ri-github-line"></i></a>
+        </div>
+    </div>
+</footer>
+    <div class="copyright">
+        Copyright © 2023 AsmrProg Channel. All Rights Reserved.
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Skills - Personal Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <ul class="nav-links">
+            <li class="link"><a href="index.html">Home</a></li>
+            <li class="link"><a href="skills.html">Skills</a></li>
+            <li class="link"><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <style>
+        .section-title {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.skill-card {
+    background-color: #27272a;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.skill-card i {
+    font-size: 3rem;
+    color: #1d4ed8;
+    margin-bottom: 1rem;
+}
+
+.skill-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.skill-card p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+.socials a {
+    color: #fff;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.socials a:hover {
+    color: #1d4ed8;
+    transform: scale(1.2); /* Efek zoom saat hover */
+}
+
+
+footer .socials {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem; /* Menambah jarak ke bawah */
+    font-size: 1.5rem;
+}
+
+footer .socials {
+    display: flex;
+    justify-content: center; /* Membuat ikon berada di tengah */
+    gap: 1rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+
+</style>
+
+    <section id="skills" class="container">
+        <h1 class="section-title">My Skills</h1>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="ri-html5-line"></i>
+                <h3>HTML</h3>
+                <p>Pengalaman dalam membuat struktur halaman yang rapi dan friendly.</p>
+            </div>
+            <div class="skill-card">
+                <i class="ri-css3-line"></i>
+                <h3>CSS</h3>
+                <p>Menguasai Flexbox dan Grid untuk desain responsif dan animasi yang menarik.</p>
+            </div>
+            <div class="skill-card">
+                <i class="ri-database-2-line"></i>
+                <h3>SQL & NoSQL</h3>
+                <p>Memahami bebarapa query di MySQL.</p>
+            </div>
+            <div class="skill-card">
+                <i class="ri-github-line"></i>
+                <h3>Git & GitHub</h3>
+                <p>Ada beberapa projek yang saya buat disana.</p>
+            </div>
+        </div>
+    </section>
+    <div class="socials">
+        <a href="https://www.youtube.com/feed/you"><i class="ri-youtube-line"></i></a>
+        <a href="https://www.instagram.com/hrnwn21/"><i class="ri-instagram-line"></i></a>
+        <a href="https://x.com/hrnwn21"><i class="ri-twitter-line"></i></a>
+        <a href="https://github.com/NovalHrnwn"><i class="ri-github-line"></i></a>
+    </div>
+</div>
+
+    <footer class="container">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <div class="column">
+        </div>
+    </footer>
+
+    <div class="copyright">
+        Copyright © 2023 AsmrProg Channel. All Rights Reserved.
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
